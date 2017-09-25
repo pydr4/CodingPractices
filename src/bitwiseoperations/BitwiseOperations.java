@@ -12,6 +12,19 @@ public class BitwiseOperations {
 		bitwiseOperation(2, 3);
 	}
 	
+	
+	//if 2, 3 is passed in
+	/*
+	 * 2 AND 3 = 010 AND 011 = 010
+	 * 2 OR  3 = 010 OR  011 = 011
+	 * 2 XOR 3 = 010 XOR 011 = 001
+	 * NOT   2 = NNOT 010    = 101
+	 * 2 <<  3 = 010000
+	 * 2 >>  3 = 0
+	 * 2 >>> 3 = 0
+	 * 2 left rotate 3 = 010 -> 1000
+	 * */
+	
 	public static void bitwiseOperation(int a, int b) {
 		System.out.println("a AND b: " + (a & b) );
 		System.out.println("a OR b: " + (a | b) );
